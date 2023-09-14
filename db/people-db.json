@@ -1,0 +1,19 @@
+{
+    "people": [
+        {
+            "id": "1",
+            "name": "Marko",
+            "prezime": "Mihajlovic"
+        },
+        {
+            "id": "2",
+            "name": "Jovana",
+            "prezime": "Stojanovic"
+        },
+        {
+            "id": "3",
+            "name": "Ivan",
+            "prezime": "Petkovic"
+        }
+    ]
+}
