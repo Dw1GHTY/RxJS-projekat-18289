@@ -1,95 +1,94 @@
 {
-    "components": [
-      {
-        "id": 1,
-        "item": "Intel i5-7400",
-        "priceRSD": 10500,
-        "manufacturer": "Intel"
-      },
-      {
-        "id": 2,
-        "item": "AMD Ryzen 9-5900X",
-        "priceRSD": 78500,
-        "manufacturer": "AMD"
-      },
-      {
-        "id": 3,
-        "item": "Intel i5-9400F",
-        "priceRSD": 29500,
-        "manufacturer": "Intel"
-      },
-      {
-        "id": 4,
-        "item": "AMD Ryzen 7-5800X",
-        "priceRSD": 63900,
-        "manufacturer": "AMD"
-      },
-      {
-        "id": 5,
-        "item": "Intel i9-10900K",
-        "priceRSD": 92000,
-        "manufacturer": "Intel"
-      },
-      {
-        "id": 6,
-        "item": "Nvidia RTX 3080",
-        "priceRSD": 78900,
-        "manufacturer": "Nvidia"
-      },
-      {
-        "id": 7,
-        "item": "Nvidia GTX 1660 Ti",
-        "priceRSD": 36500,
-        "manufacturer": "Nvidia"
-      },
-      {
-        "id": 8,
-        "item": "Nvidia RTX 3060",
-        "priceRSD": 52750,
-        "manufacturer": "Nvidia"
-      },
-      {
-        "id": 9,
-        "item": "Nvidia RTX 3070",
-        "priceRSD": 67300,
-        "manufacturer": "Nvidia"
-      },
-      {
-        "id": 10,
-        "item": "Nvidia GTX 1650",
-        "priceRSD": 17200,
-        "manufacturer": "Nvidia"
-      },
-      {
-        "id": 11,
-        "item": "Corsair Vengeance LPX 16GB",
-        "priceRSD": 38900,
-        "manufacturer": "Corsair"
-      },
-      {
-        "id": 12,
-        "item": "Kingston HyperX Fury 8GB",
-        "priceRSD": 15200,
-        "manufacturer": "Kingston"
-      },
-      {
-        "id": 13,
-        "item": "Crucial Ballistix 32GB",
-        "priceRSD": 57900,
-        "manufacturer": "Crucial"
-      },
-      {
-        "id": 14,
-        "item": "G.Skill Ripjaws V 64GB",
-        "priceRSD": 98600,
-        "manufacturer": "G.Skill"
-      },
-      {
-        "id": 15,
-        "item": "ADATA XPG Spectrix 16GB",
-        "priceRSD": 23750,
-        "manufacturer": "ADATA"
-      }
-    ]
-  }
-  
+  "components": [
+    {
+      "id": 1,
+      "item": "Intel i5-7400",
+      "priceRSD": 10500,
+      "manufacturer": "Intel"
+    },
+    {
+      "id": 2,
+      "item": "AMD Ryzen 9-5900X",
+      "priceRSD": 78500,
+      "manufacturer": "AMD"
+    },
+    {
+      "id": 3,
+      "item": "Intel i5-9400F",
+      "priceRSD": 29500,
+      "manufacturer": "Intel"
+    },
+    {
+      "id": 4,
+      "item": "AMD Ryzen 7-5800X",
+      "priceRSD": 63900,
+      "manufacturer": "AMD"
+    },
+    {
+      "id": 5,
+      "item": "Intel i9-10900K",
+      "priceRSD": 92000,
+      "manufacturer": "Intel"
+    },
+    {
+      "id": 6,
+      "item": "Nvidia RTX 3080",
+      "priceRSD": 78900,
+      "manufacturer": "Nvidia"
+    },
+    {
+      "id": 7,
+      "item": "Nvidia GTX 1660 Ti",
+      "priceRSD": 36500,
+      "manufacturer": "Nvidia"
+    },
+    {
+      "id": 8,
+      "item": "Nvidia RTX 3060",
+      "priceRSD": 52750,
+      "manufacturer": "Nvidia"
+    },
+    {
+      "id": 9,
+      "item": "Nvidia RTX 3070",
+      "priceRSD": 67300,
+      "manufacturer": "Nvidia"
+    },
+    {
+      "id": 10,
+      "item": "Nvidia GTX 1650",
+      "priceRSD": 17200,
+      "manufacturer": "Nvidia"
+    },
+    {
+      "id": 11,
+      "item": "Corsair Vengeance LPX 16GB",
+      "priceRSD": 38900,
+      "manufacturer": "Corsair"
+    },
+    {
+      "id": 12,
+      "item": "Kingston HyperX Fury 8GB",
+      "priceRSD": 15200,
+      "manufacturer": "Kingston"
+    },
+    {
+      "id": 13,
+      "item": "Crucial Ballistix 32GB",
+      "priceRSD": 57900,
+      "manufacturer": "Crucial"
+    },
+    {
+      "id": 14,
+      "item": "G.Skill Ripjaws V 64GB",
+      "priceRSD": 98600,
+      "manufacturer": "G.Skill"
+    },
+    {
+      "id": 15,
+      "item": "ADATA XPG Spectrix 16GB",
+      "priceRSD": 23750,
+      "manufacturer": "ADATA"
+    }
+  ]
+}
