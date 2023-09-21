@@ -1,3 +1,6 @@
+import { getComponent } from "../controllers/fetchDb";
+import { Component } from "../Interfaces/Component";
+
 
 export function createShopSection(workspaceContainer: HTMLElement): HTMLElement{
 
@@ -34,6 +37,10 @@ export function createShopSection(workspaceContainer: HTMLElement): HTMLElement{
 
     
     //#endregion
+
+    
+    
+
 
     return shopContainer;
 }
