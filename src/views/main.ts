@@ -1,8 +1,8 @@
 import { createShopSection } from "./shop";
-import { createWalletSection} from "./wallet";
+import { createWalletSection } from "./wallet";
 import { createHeaderSection } from "./header";
 
-export function render(){
+export function render() {
 
     const appContainer = document.createElement('div');
     appContainer.classList.add('app-container');

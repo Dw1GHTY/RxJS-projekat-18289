@@ -1,8 +1,8 @@
-import { getComponent } from "../controllers/fetchDb";
-import { Component } from "../Interfaces/Component";
+import { getComponents } from "../controllers/getComponents";
+import { Component } from "../Interface/Component";
 
 
-export function createShopSection(workspaceContainer: HTMLElement): HTMLElement{
+export function createShopSection(workspaceContainer: HTMLElement): HTMLElement {
 
     const shopContainer = document.createElement('div');
     shopContainer.classList.add('shop-container');
@@ -32,14 +32,70 @@ export function createShopSection(workspaceContainer: HTMLElement): HTMLElement{
 
     //#region filter
     const filterContainer = document.createElement('div');
-    filterContainer.classList.add('filet-container');
+    filterContainer.classList.add('filter-container');
     shopContainer.appendChild(filterContainer);
 
-    
+
     //#endregion
 
-    
-    
+
+    //#region table
+
+    //<table>
+    const shopTable = document.createElement('table');
+    shopTable.classList.add('shop-table');
+    shopContainer.appendChild(shopTable);
+    //<thead>
+    const shopTableHead = document.createElement('thead');
+    shopTable.appendChild(shopTableHead);
+    //<tr>
+    const shopTableHeadRow = document.createElement('tr');
+    shopTableHead.appendChild(shopTableHeadRow);
+    //<th>
+    const tableItem = document.createElement('th');
+    tableItem.classList.add('.table-item');
+    tableItem.innerHTML = 'Item';
+    shopTableHeadRow.appendChild(tableItem);
+    //<th>
+    const tablePrice = document.createElement('th');
+    tablePrice.classList.add('table-price');
+    tablePrice.innerHTML = 'Price RSD';
+    shopTableHeadRow.appendChild(tablePrice);
+    //<th>
+    const tableManufacturer = document.createElement('th');
+    tableManufacturer.classList.add('table-manufacturer');
+    tableManufacturer.innerHTML = 'Manufacturer';
+    shopTableHeadRow.appendChild(tableManufacturer);
+
+    //<tbody>
+    const shopTableBody = document.createElement('tbody');
+    shopTableBody.classList.add('shop-table-body');
+    shopTable.appendChild(shopTableBody);
+
+    getComponents().subscribe((data) => {
+        console.log(data);
+
+        data.forEach(components => {
+
+            const row = document.createElement('tr');
+
+            const item = document.createElement('td');
+            item.textContent = components.item;
+            row.appendChild(item);
+
+            const priceRSD = document.createElement('td');
+            priceRSD.textContent = components.priceRSD.toPrecision();
+            row.appendChild(priceRSD);
+
+            const manufacturer = document.createElement('td');
+            manufacturer.textContent = components.manufacturer;
+            row.appendChild(manufacturer);
+
+            shopTableBody.appendChild(row);
+        });
+    })
+
+    //#endregion
 
 
     return shopContainer;
