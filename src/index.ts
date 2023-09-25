@@ -1,13 +1,9 @@
-/* const url = "http://localhost:3000/db/people-db.json"; */
-
 import { render } from "./views/main";
-import { getData } from "./controllers/currencyApi";
-import { getComponents } from "./controllers/getComponents";
+import { getData } from "./functions/currency";
+import { getComponents } from "./functions/getComponents";
 
 
 //tok podataka -> draw funkcija -> filter na search
 
-/* getComponent(); */
-getData();
 
 render();

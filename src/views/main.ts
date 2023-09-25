@@ -1,6 +1,6 @@
-import { createShopSection } from "./shop";
-import { createWalletSection } from "./wallet";
-import { createHeaderSection } from "./header";
+import { createShopSection } from "./shop/shop";
+import { createWalletSection } from "./wallet/wallet";
+import { createHeaderSection } from "./header/header";
 
 export function render() {
 
@@ -19,4 +19,6 @@ export function render() {
 
     const shop = createShopSection(workspaceContainer);
     workspaceContainer.appendChild(shop);
+
+
 }

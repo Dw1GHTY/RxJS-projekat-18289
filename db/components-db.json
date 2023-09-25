@@ -89,6 +89,96 @@
       "item": "ADATA XPG Spectrix 16GB",
       "priceRSD": 23750,
       "manufacturer": "ADATA"
+    },
+    {
+      "id": 16,
+      "item": "Intel i7-10700K",
+      "priceRSD": 42500,
+      "manufacturer": "Intel"
+    },
+    {
+      "id": 17,
+      "item": "AMD Ryzen 5-5600X",
+      "priceRSD": 29500,
+      "manufacturer": "AMD"
+    },
+    {
+      "id": 18,
+      "item": "AMD Ryzen 3-3300X",
+      "priceRSD": 13500,
+      "manufacturer": "AMD"
+    },
+    {
+      "id": 19,
+      "item": "AMD Radeon RX 6700 XT",
+      "priceRSD": 57900,
+      "manufacturer": "AMD"
+    },
+    {
+      "id": 20,
+      "item": "AMD Radeon RX 6800",
+      "priceRSD": 78900,
+      "manufacturer": "AMD"
+    },
+    {
+      "id": 21,
+      "item": "AMD Radeon RX 6900 XT",
+      "priceRSD": 94900,
+      "manufacturer": "AMD"
+    },
+    {
+      "id": 22,
+      "item": "Samsung 970 EVO 500GB SSD",
+      "priceRSD": 21500,
+      "manufacturer": "Samsung"
+    },
+    {
+      "id": 23,
+      "item": "Crucial MX500 1TB SSD",
+      "priceRSD": 42900,
+      "manufacturer": "Crucial"
+    },
+    {
+      "id": 24,
+      "item": "WD Blue 2TB SSD",
+      "priceRSD": 73900,
+      "manufacturer": "Western Digital"
+    },
+    {
+      "id": 25,
+      "item": "Kingston A2000 256GB SSD",
+      "priceRSD": 9900,
+      "manufacturer": "Kingston"
+    },
+    {
+      "id": 26,
+      "item": "Intel i7-12700K",
+      "priceRSD": 55000,
+      "manufacturer": "Intel"
+    },
+    {
+      "id": 27,
+      "item": "Intel i9-13900K",
+      "priceRSD": 75000,
+      "manufacturer": "Intel"
+    },
+    {
+      "id": 28,
+      "item": "Intel i5-12600K",
+      "priceRSD": 42000,
+      "manufacturer": "Intel"
+    },
+    {
+      "id": 29,
+      "item": "Intel i7-12900K",
+      "priceRSD": 59000,
+      "manufacturer": "Intel"
+    },
+    {
+      "id": 30,
+      "item": "Intel i9-13900X",
+      "priceRSD": 78000,
+      "manufacturer": "Intel"
     }
   ]
 }

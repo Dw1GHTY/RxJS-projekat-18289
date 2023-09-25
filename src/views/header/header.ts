@@ -1,5 +1,5 @@
-export function createHeaderSection(appContainer: HTMLElement): HTMLElement{
-    
+export function createHeaderSection(appContainer: HTMLElement): HTMLElement {
+
     const headerContainer = document.createElement('div');
     headerContainer.classList.add('header-container');
     appContainer.appendChild(headerContainer);
