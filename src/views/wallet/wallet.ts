@@ -1,6 +1,7 @@
 import { createBalance } from "./balance/balance";
 import { createConvert } from "./convert/convert";
 import { createDeposit } from "./deposit/deposit";
+import { createRates } from "./rates/rates";
 
 export function createWalletSection(workspaceContainer: HTMLElement): HTMLElement {
 
@@ -24,6 +25,7 @@ export function createWalletSection(workspaceContainer: HTMLElement): HTMLElemen
 
     createConvert(walletContainer);
 
+    createRates(walletContainer);
 
     const conversionInfoContainer = document.createElement('div');
     conversionInfoContainer.classList.add('conversion-info-container');

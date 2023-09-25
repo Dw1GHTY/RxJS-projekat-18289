@@ -136,13 +136,23 @@ body {
     flex-wrap: wrap;
 }
 
-.conversion-info-container {}
+.conversion-info-container {
+    margin-top: 10vh;
+}
 
 .conversion-info-link {}
 
 
+.rates-container{
+    margin-top: 5vh;
+}
+
+.balance-eur{
+    margin-bottom: 2vh;
+}
 
 
+.balance-usd{}
 
 
 
