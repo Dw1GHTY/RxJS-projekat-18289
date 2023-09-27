@@ -29,6 +29,5 @@ export function getComponents(componentName?: string): Observable<Component[]> {
             console.log(err);
             return [];
         })
-    console.log(promise)
     return from(promise)
 }

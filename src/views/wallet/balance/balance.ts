@@ -1,4 +1,4 @@
-
+export const currentBalance = 0;
 
 export function createBalance(walletContainer: HTMLElement) {
 
@@ -13,6 +13,6 @@ export function createBalance(walletContainer: HTMLElement) {
 
     const balance = document.createElement('div');
     balance.classList.add('balance');
-    balance.innerHTML = "60000";
+    balance.innerHTML = `${currentBalance} rsd`;
     balanceContainer.appendChild(balance);
 }

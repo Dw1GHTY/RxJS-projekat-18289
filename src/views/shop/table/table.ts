@@ -19,7 +19,7 @@ export function createTable(shopContainer: HTMLElement) {
     //<th>
     const tablePrice = document.createElement('th');
     tablePrice.classList.add('table-price');
-    tablePrice.innerHTML = 'Price RSD';
+    tablePrice.innerHTML = 'PriceRSD';
     shopTableHeadRow.appendChild(tablePrice);
     //<th>
     const tableManufacturer = document.createElement('th');
