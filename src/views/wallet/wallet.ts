@@ -1,5 +1,5 @@
 import { createBalance } from "./balance/balance";
-/* import { createConvert } from "./convert/convert"; */
+import { createCurrencyShop } from "./currencyShop/currencyShop";
 import { createDeposit } from "./deposit/deposit";
 import { createInfo } from "./info/info";
 
@@ -23,10 +23,12 @@ export function createWalletSection(workspaceContainer: HTMLElement): HTMLElemen
 
     createDeposit(walletContainer);
 
-    /* createConvert(walletContainer); */
+
+    createCurrencyShop(walletContainer);
+
 
     createInfo(walletContainer);
-    
+
 
     return walletContainer;
 }

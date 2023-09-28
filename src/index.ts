@@ -10,5 +10,5 @@ getCurrencyConvert();
  */
 render();
 
-getRsdToEurRate().subscribe((data) => console.log("RSDEUR rate: ", data.rate));
-getRsdToUsdRate().subscribe((data) => console.log("RSDUSD rate:", data.rate));
+/* getRsdToEurRate().subscribe((data) => console.log("RSDEUR rate: ", data.rate));
+getRsdToUsdRate().subscribe((data) => console.log("RSDUSD rate:", data.rate)); */

@@ -38,6 +38,8 @@ body {
 }
 
 .wallet-container {
+    display: flex;
+    flex-direction: column;
     width: 50vw;
     height: 100vh;
     border-right-style: groove;
@@ -116,6 +118,117 @@ body {
     background: rgba(0, 0, 0, .08);
     color: rgba(0, 0, 0, .3);
 }
+
+
+
+
+
+.currency-shop-container {
+
+
+    border-top: #09223b groove;
+    margin-top: 2vh;
+}
+
+.rsd-to-eur-container {
+    margin-top: 4vh;
+}
+
+.rsd-to-eur-rate-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+}
+
+.rsd-to-eur-rate-title {}
+
+.rsd-to-eur-rate-value {
+    margin-left: 3vw;
+}
+
+.buy-eur-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.buy-eur-input {}
+
+.buy-eur-preview {
+    margin-left: 4vw;
+    margin-right: 2vw;
+}
+
+
+
+.rsd-to-usd-container {
+    margin-top: 4vh;
+}
+
+.rsd-to-usd-rate-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+}
+
+.rsd-to-usd-rate-title {}
+
+.rsd-to-usd-rate-value {
+    margin-left: 3vw;
+}
+
+.buy-usd-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.buy-usd-input {}
+
+.buy-usd-preview {
+    margin-left: 4vw;
+    margin-right: 2vw;
+}
+
+
+.foreign-currency-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.foreign-currencies-balance {
+    margin-top: 1vh;
+}
+
+.eur-balance-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.usd-balance-container {
+
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.foreign-currency-label {
+    margin-top: 2vh;
+}
+
+.foreign-currency-value {
+    text-align: center;
+}
+
+
+
+.conversion-info-container {
+
+    margin-top: auto;
+}
+
+
+
 
 
 
