@@ -18,7 +18,7 @@ export function getComponents(componentName?: string): Observable<Component[]> {
             }
         })
         .then((data: Component[]) => {
-            const filteredComponents = data.filter((component) =>       //mozda ovde problem
+            const filteredComponents = data.filter((component) =>       
                 component.item
                     .toLowerCase()
                     .includes(searchName)

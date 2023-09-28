@@ -118,46 +118,6 @@ body {
 }
 
 
-.convert-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.to-euro-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 4vh;
-}
-
-.to-dollar-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.conversion-info-container {
-    margin-top: 10vh;
-}
-
-.conversion-info-link {}
-
-
-.rates-container{
-    margin-top: 5vh;
-}
-
-.balance-eur{
-    margin-bottom: 2vh;
-}
-
-
-.balance-usd{}
-
-
-
-
-
 
 
 .shop-container {

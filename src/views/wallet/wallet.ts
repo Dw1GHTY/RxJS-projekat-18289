@@ -1,7 +1,7 @@
 import { createBalance } from "./balance/balance";
-import { createConvert } from "./convert/convert";
+/* import { createConvert } from "./convert/convert"; */
 import { createDeposit } from "./deposit/deposit";
-import { createRates } from "./rates/rates";
+import { createInfo } from "./info/info";
 
 export function createWalletSection(workspaceContainer: HTMLElement): HTMLElement {
 
@@ -23,19 +23,10 @@ export function createWalletSection(workspaceContainer: HTMLElement): HTMLElemen
 
     createDeposit(walletContainer);
 
-    createConvert(walletContainer);
+    /* createConvert(walletContainer); */
 
-    createRates(walletContainer);
-
-    const conversionInfoContainer = document.createElement('div');
-    conversionInfoContainer.classList.add('conversion-info-container');
-    walletContainer.appendChild(conversionInfoContainer);
-
-    const conversionInfoLink = document.createElement('a');
-    conversionInfoLink.classList.add('conversion-info-link');
-    conversionInfoLink.innerHTML = "i: conversions are done via live exchange rates";
-    conversionInfoLink.href = "https://www.msn.com/en-xl/money/portfolio?tab=Related&id=avsaec&ocid=ansMSNMoney11&duration=1D&src=b_rscrsl&relatedQuoteId=avsaec&relatedSource=MlAl";
-    conversionInfoContainer.appendChild(conversionInfoLink);
+    createInfo(walletContainer);
+    
 
     return walletContainer;
 }
