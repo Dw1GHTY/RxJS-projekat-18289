@@ -1,3 +1,4 @@
+import { getRsdToEurRate, getRsdToEurRateYesterday } from "../../../controllers/currencyFunctions";
 
 export function createRsdToEur(currencyShopContainer: HTMLElement) {
 
@@ -9,6 +10,8 @@ export function createRsdToEur(currencyShopContainer: HTMLElement) {
 
     buyEur(rsdToEurContainer);
 }
+
+
 
 export function rsdToEurRate(rsdToEurContainer: HTMLElement) {
 
@@ -25,11 +28,16 @@ export function rsdToEurRate(rsdToEurContainer: HTMLElement) {
 
     const rsdToEurRateValue = document.createElement('div');
     rsdToEurRateValue.classList.add('rsd-to-eur-rate-value');
-    rsdToEurRateValue.innerText = "test 0.009";                     //ovo treba porediti sa jucerasnjim kursom (rate-om)
-    rsdToEurRateContainer.appendChild(rsdToEurRateValue);           //i treba uvesti live kurs
+    getRsdToEurRate().subscribe(data => {
 
-
+        rsdToEurRateValue.innerText = data.rate.toString();
+        //ovde provera sa jucerasnjim kursom za zeleno ili crveno, mozda moze i razlika da se prikaze
+    })
+    rsdToEurRateContainer.appendChild(rsdToEurRateValue);
 }
+
+
+
 export function buyEur(rsdToEurContainer: HTMLElement) {
 
     const buyEurContainer = document.createElement('div');
@@ -42,6 +50,7 @@ export function buyEur(rsdToEurContainer: HTMLElement) {
     buyEurInput.placeholder = "Amount (RSD)";
     buyEurContainer.appendChild(buyEurInput);
 
+    //za preview treba da se pretplatim na kurs i 
     const buyEurPreview = document.createElement('div');
     buyEurPreview.classList.add('buy-eur-preview');
     buyEurPreview.innerText = "+250€";

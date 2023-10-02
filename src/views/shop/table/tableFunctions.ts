@@ -1,4 +1,4 @@
-import { getComponents } from "../../../functions/getComponents";
+import { getComponents } from "../../../controllers/getComponents";
 
 export function fillTable(shopTableBody: HTMLElement) {
 

@@ -1,5 +1,5 @@
 import { debounce, debounceTime, filter, fromEvent, map, switchMap } from "rxjs";
-import { getComponents } from "../../../functions/getComponents";
+import { getComponents } from "../../../controllers/getComponents";
 
 export function searchComponents(input: HTMLInputElement) {
 

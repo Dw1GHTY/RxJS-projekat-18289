@@ -1,3 +1,5 @@
+import { getRsdToUsdRate } from "../../../controllers/currencyFunctions";
+
 export function createRsdToUsd(currencyShopContainer: HTMLElement) {
 
     const rsdToUsdContainer = document.createElement('div');
@@ -23,9 +25,11 @@ export function rsdToUsdRate(rsdToUsdContainer: HTMLElement) {
 
     const rsdToUsdRateValue = document.createElement('div');
     rsdToUsdRateValue.classList.add('rsd-to-usd-rate-value');
-    rsdToUsdRateValue.innerText = "test 0.009"; // Ovo treba porediti sa jučerašnjim kursom (rate-om)
-    rsdToUsdRateContainer.appendChild(rsdToUsdRateValue); // I treba uvesti live kurs
-
+    getRsdToUsdRate().subscribe(data => {
+        rsdToUsdRateValue.innerText = data.rate.toString();
+        //ovde provera sa jucerasnjim kursom za zeleno ili crveno, mozda moze i razlika da se prikaze
+    })
+    rsdToUsdRateContainer.appendChild(rsdToUsdRateValue);
 }
 
 export function buyUsd(rsdToUsdContainer: HTMLElement) {
